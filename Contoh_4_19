@@ -5,7 +5,7 @@ def inputPengguna(mesejInput):
   harga=float(input())
   return harga
 #Procedure kiraPeratus
-def kiraPeratus
+def kiraPeratus(h1,h2):
   peratus=((h2-h1)/h1)*100
   peratus=round(peratus,2)#dua tempat perpuluhan
   if peratus > 0:
